@@ -56,4 +56,3 @@ it("tickFormat(start, stop, count) uses the default precision with trimming when
   assert.strictEqual(f(Math.PI * 1e7), "31,415,926.535898");
   assert.strictEqual(f(-Math.PI * 1e7), "−31,415,926.535898");
 });
-
